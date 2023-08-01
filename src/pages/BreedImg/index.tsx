@@ -36,6 +36,7 @@ export const BreedImg: React.FC<{ cat: Cat, handleImageClick:(cat: Cat) => void,
 const ImgWrapper = styled.img`
  width: 100px;
   height: 220px;
+  margin-left: 10px;
   object-fit: cover;
   border-radius: 20px;
 `
